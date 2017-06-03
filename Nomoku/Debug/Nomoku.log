@@ -1,0 +1,69 @@
+﻿生成启动时间为 2017/2/13 22:05:23。
+     1>项目“C:\Users\lhy\Desktop\Nomoku\Nomoku\Nomoku.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         F:\study\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AI_Nomoku.cpp ANN.cpp Board_controller.cpp GA.cpp Logger.cpp AI_Wrapper.cpp pisqpipe.cpp Timer.cpp
+         Timer.cpp
+         pisqpipe.cpp
+     1>c:\users\lhy\desktop\nomoku\nomoku\pisqpipe.cpp(64): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\study\visual studio\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>c:\users\lhy\desktop\nomoku\nomoku\pisqpipe.cpp(74): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\study\visual studio\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>c:\users\lhy\desktop\nomoku\nomoku\pisqpipe.cpp(152): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\study\visual studio\vc\include\string.h(195) : 参见“strncpy”的声明
+     1>c:\users\lhy\desktop\nomoku\nomoku\pisqpipe.cpp(159): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\study\visual studio\vc\include\stdio.h(304) : 参见“sscanf”的声明
+     1>c:\users\lhy\desktop\nomoku\nomoku\pisqpipe.cpp(170): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\study\visual studio\vc\include\stdio.h(304) : 参见“sscanf”的声明
+         AI_Wrapper.cpp
+         Logger.cpp
+     1>c:\users\lhy\desktop\nomoku\nomoku\logger.cpp(24): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\study\visual studio\vc\include\time.inl(112) : 参见“localtime”的声明
+         GA.cpp
+         Board_controller.cpp
+         ANN.cpp
+     1>c:\users\lhy\desktop\nomoku\nomoku\ann.cpp(33): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\lhy\desktop\nomoku\nomoku\ann.cpp(138): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\study\visual studio\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\users\lhy\desktop\nomoku\nomoku\ann.cpp(139): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\study\visual studio\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\users\lhy\desktop\nomoku\nomoku\ann.cpp(140): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\study\visual studio\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\users\lhy\desktop\nomoku\nomoku\ann.cpp(141): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\study\visual studio\vc\include\string.h(118) : 参见“strcat”的声明
+     1>c:\users\lhy\desktop\nomoku\nomoku\ann.cpp(142): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\study\visual studio\vc\include\string.h(118) : 参见“strcat”的声明
+     1>c:\users\lhy\desktop\nomoku\nomoku\ann.cpp(143): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\study\visual studio\vc\include\string.h(118) : 参见“strcat”的声明
+     1>c:\users\lhy\desktop\nomoku\nomoku\ann.cpp(144): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\study\visual studio\vc\include\string.h(118) : 参见“strcat”的声明
+     1>c:\users\lhy\desktop\nomoku\nomoku\ann.cpp(157): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\study\visual studio\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\users\lhy\desktop\nomoku\nomoku\ann.cpp(158): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\study\visual studio\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\users\lhy\desktop\nomoku\nomoku\ann.cpp(159): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\study\visual studio\vc\include\string.h(112) : 参见“strcpy”的声明
+     1>c:\users\lhy\desktop\nomoku\nomoku\ann.cpp(160): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\study\visual studio\vc\include\string.h(118) : 参见“strcat”的声明
+     1>c:\users\lhy\desktop\nomoku\nomoku\ann.cpp(161): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\study\visual studio\vc\include\string.h(118) : 参见“strcat”的声明
+     1>c:\users\lhy\desktop\nomoku\nomoku\ann.cpp(162): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\study\visual studio\vc\include\string.h(118) : 参见“strcat”的声明
+     1>c:\users\lhy\desktop\nomoku\nomoku\ann.cpp(163): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\study\visual studio\vc\include\string.h(118) : 参见“strcat”的声明
+         AI_Nomoku.cpp
+         正在生成代码...
+       Link:
+         F:\study\visual studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lhy\Desktop\Nomoku\Nomoku\Debug\pbrain-nomoku.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\lhy\Desktop\Nomoku\Nomoku\Debug\pbrain-nomoku.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lhy\Desktop\Nomoku\Nomoku\Debug\pbrain-nomoku.lib" /MACHINE:X86 Debug\AI_Nomoku.obj
+         Debug\ANN.obj
+         Debug\Board_controller.obj
+         Debug\GA.obj
+         Debug\Logger.obj
+         Debug\AI_Wrapper.obj
+         Debug\pisqpipe.obj
+         Debug\Timer.obj
+         Nomoku.vcxproj -> C:\Users\lhy\Desktop\Nomoku\Nomoku\Debug\pbrain-nomoku.exe
+     1>已完成生成项目“C:\Users\lhy\Desktop\Nomoku\Nomoku\Nomoku.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:17.71
